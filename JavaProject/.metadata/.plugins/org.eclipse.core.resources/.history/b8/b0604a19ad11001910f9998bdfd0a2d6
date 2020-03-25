@@ -1,0 +1,52 @@
+package finalproject;
+
+import java.awt.BorderLayout;
+
+import java.awt.EventQueue;
+import java.awt.Image;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+import javax.swing.JLabel;
+import javax.swing.ImageIcon;
+import javax.swing.SwingConstants;
+
+public class MapGUI extends JFrame {
+
+	private JPanel contentPane;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					MapGUI frame = new MapGUI();
+					frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the frame.
+	 */
+	public MapGUI() {
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 450, 300);
+	
+		
+	
+		/*JLabel jlb = new JLabel(); 
+		int width = 100,height = 100;	
+		ImageIcon image = new ImageIcon("C:\\Users\\LINSANITY\\Desktop\\JAVA\\期末專題\\picture\\c.jpg");	
+		image.setImage(image.getImage().getScaledInstance(width, height,Image.SCALE_DEFAULT ));
+		jlb.setIcon(image);
+		jlb.setSize(width, height);
+		contentPane.add(jlb, BorderLayout.NORTH);*/
+	}
+
+}

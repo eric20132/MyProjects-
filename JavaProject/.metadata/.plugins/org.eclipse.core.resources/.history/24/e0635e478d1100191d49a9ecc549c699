@@ -1,0 +1,85 @@
+package finalproject;
+
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import java.awt.GridLayout;
+import javax.swing.JCheckBox;
+
+public class purchasing {
+
+	private JFrame frame;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					purchasing window = new purchasing();
+					window.frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the application.
+	 */
+	public purchasing() {
+		initialize();
+	}
+
+	/**
+	 * Initialize the contents of the frame.
+	 */
+	private void initialize() {
+		frame = new JFrame();
+		frame.setBounds(100, 100, 450, 300);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.getContentPane().setLayout(new GridLayout(3, 5, 0, 0));
+		
+		JCheckBox chckbxNewCheckBox_1 = new JCheckBox("New check box");
+		frame.getContentPane().add(chckbxNewCheckBox_1);
+		
+		JCheckBox chckbxNewCheckBox_2 = new JCheckBox("New check box");
+		frame.getContentPane().add(chckbxNewCheckBox_2);
+		
+		JCheckBox chckbxNewCheckBox_3 = new JCheckBox("New check box");
+		frame.getContentPane().add(chckbxNewCheckBox_3);
+		
+		JCheckBox chckbxNewCheckBox_4 = new JCheckBox("New check box");
+		frame.getContentPane().add(chckbxNewCheckBox_4);
+		
+		JCheckBox chckbxNewCheckBox_5 = new JCheckBox("New check box");
+		frame.getContentPane().add(chckbxNewCheckBox_5);
+		
+		JCheckBox chckbxNewCheckBox_6 = new JCheckBox("New check box");
+		frame.getContentPane().add(chckbxNewCheckBox_6);
+		
+		JCheckBox chckbxNewCheckBox_7 = new JCheckBox("New check box");
+		frame.getContentPane().add(chckbxNewCheckBox_7);
+		
+		JCheckBox chckbxNewCheckBox_8 = new JCheckBox("New check box");
+		frame.getContentPane().add(chckbxNewCheckBox_8);
+		
+		JCheckBox chckbxNewCheckBox_9 = new JCheckBox("New check box");
+		frame.getContentPane().add(chckbxNewCheckBox_9);
+		
+		JCheckBox chckbxNewCheckBox_10 = new JCheckBox("New check box");
+		frame.getContentPane().add(chckbxNewCheckBox_10);
+		
+		JCheckBox chckbxNewCheckBox_11 = new JCheckBox("New check box");
+		frame.getContentPane().add(chckbxNewCheckBox_11);
+		
+		JCheckBox chckbxNewCheckBox_12 = new JCheckBox("New check box");
+		frame.getContentPane().add(chckbxNewCheckBox_12);
+		
+		JCheckBox chckbxNewCheckBox_13= new JCheckBox("New check box");
+		frame.getContentPane().add(chckbxNewCheckBox_13);
+	}
+
+}

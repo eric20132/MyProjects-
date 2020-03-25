@@ -1,0 +1,451 @@
+package finalproject;
+
+import java.awt.BorderLayout;
+import java.awt.EventQueue;
+import java.awt.FlowLayout;
+import java.awt.Font;
+import java.awt.GridLayout;
+
+import javax.swing.JCheckBox;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
+import javax.swing.SwingConstants;
+import javax.swing.border.EmptyBorder;
+
+public class purchaseGUI extends JFrame {
+
+	private JPanel contentPane;
+	private JFrame frame;
+	private JTextField textField;
+	private JTextField textField_1;
+	private JTextField textField_2;
+	private JTextField textField_3;
+	private JTextField textField_4;
+	private JTextField textField_5;
+	private JTextField textField_6;
+	private JTextField textField_7;
+	private JTextField textField_8;
+	private JTextField textField_9;
+	private JTextField textField_10;
+	private JTextField textField_11;
+	private JTextField textField_12;
+	private JTextField textField_13;
+	private JTextField textField_14;
+	private JTextField textField_15;
+	private JTextField textField_16;
+	private JTextField textField_17;
+	private JTextField textField_18;
+	private JTextField textField_19;
+	private JTextField textField_20;
+	private JTextField textField_21;
+	private JTextField textField_22;
+	private JTextField textField_23;
+	private JTextField textField_24;
+	private JTextField textField_25;
+	private JTextField textField_26;
+	private JTextField textField_27;
+	private JTextField textField_28;
+	private JTextField textField_29;
+	private JTextField textField_30;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					purchaseGUI frame = new purchaseGUI();
+					frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the frame.
+	 */
+	public purchaseGUI() {
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 970, 540);
+		contentPane = new JPanel();
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+		
+		setContentPane(contentPane);
+		
+		contentPane.setLayout(new GridLayout(1, 5, 0, 0));
+		
+		JPanel panel = new JPanel();
+		contentPane.add(panel);
+		panel.setLayout(new GridLayout(4,1, 0, 0));
+		
+		JPanel panel_5 = new JPanel();
+		panel.add(panel_5);
+		panel_5.setLayout(new FlowLayout(FlowLayout.CENTER, 5, 5));
+		
+		JLabel lblNewLabel = new JLabel("\u98F2\u6599\u985E");
+		lblNewLabel.setFont(new Font("標楷體", Font.PLAIN, 30));
+		lblNewLabel.setVerticalAlignment(SwingConstants.BOTTOM);
+		lblNewLabel.setHorizontalAlignment(SwingConstants.CENTER);
+		panel_5.add(lblNewLabel);
+		
+		JLabel lblNewLabel_1 = new JLabel("\u5009\u5EAB\u5269\u9918\u7A7A\u9593");
+		lblNewLabel_1.setFont(new Font("標楷體", Font.PLAIN, 15));
+		panel_5.add(lblNewLabel_1);
+		
+		textField = new JTextField();
+		panel_5.add(textField);
+		textField.setColumns(10);
+		
+		JPanel panel_6 = new JPanel();
+		panel.add(panel_6);
+		panel_6.setLayout(new GridLayout(2, 2, 0, 0));
+		
+		JCheckBox chckbxNewCheckBox_1 = new JCheckBox("\u5564\u9152$40");
+		panel_6.add(chckbxNewCheckBox_1);
+		chckbxNewCheckBox_1.setFont(new Font("標楷體", Font.PLAIN, 15));
+		
+		textField_1 = new JTextField();
+		panel_6.add(textField_1);
+		textField_1.setColumns(10);
+		
+		JLabel lblNewLabel_2 = new JLabel("   \u9032\u8CA8\u91CF");
+		lblNewLabel_2.setFont(new Font("標楷體", Font.PLAIN, 15));
+		panel_6.add(lblNewLabel_2);
+		
+		textField_2 = new JTextField();
+		panel_6.add(textField_2);
+		textField_2.setColumns(10);
+		
+		JPanel panel_7 = new JPanel();
+		panel.add(panel_7);
+		panel_7.setLayout(new GridLayout(2, 2, 0, 0));
+		
+		JCheckBox chckbxNewCheckBox_2 = new JCheckBox("\u6C7D\u6C34$10");
+		panel_7.add(chckbxNewCheckBox_2);
+		chckbxNewCheckBox_2.setFont(new Font("標楷體", Font.PLAIN, 15));
+		
+		textField_3 = new JTextField();
+		panel_7.add(textField_3);
+		textField_3.setColumns(10);
+		
+		JLabel lblNewLabel_3 = new JLabel("   \u9032\u8CA8\u91CF");
+		lblNewLabel_3.setFont(new Font("標楷體", Font.PLAIN, 15));
+		panel_7.add(lblNewLabel_3);
+		
+		textField_4 = new JTextField();
+		panel_7.add(textField_4);
+		textField_4.setColumns(10);
+		
+		JPanel panel_8 = new JPanel();
+		panel.add(panel_8);
+		panel_8.setLayout(new GridLayout(2, 2, 0, 0));
+		
+		JCheckBox chckbxNewCheckBox_3 = new JCheckBox("\u5976\u8336$5");
+		panel_8.add(chckbxNewCheckBox_3);
+		chckbxNewCheckBox_3.setFont(new Font("標楷體", Font.PLAIN, 15));
+		
+		textField_5 = new JTextField();
+		panel_8.add(textField_5);
+		textField_5.setColumns(10);
+		
+		JLabel lblNewLabel_4 = new JLabel("   \u9032\u8CA8\u91CF");
+		lblNewLabel_4.setFont(new Font("標楷體", Font.PLAIN, 15));
+		panel_8.add(lblNewLabel_4);
+		
+		textField_6 = new JTextField();
+		panel_8.add(textField_6);
+		textField_6.setColumns(10);
+		
+		JPanel panel_1 = new JPanel();
+		contentPane.add(panel_1);
+		panel_1.setLayout(new GridLayout(4, 1, 0, 0));
+		
+		JPanel panel_9 = new JPanel();
+		panel_1.add(panel_9);
+		panel_9.setLayout(new FlowLayout(FlowLayout.CENTER, 5, 5));
+		
+		JLabel lblNewLabel_5 = new JLabel("\u96F6\u98DF\u985E");
+		lblNewLabel_5.setFont(new Font("標楷體", Font.PLAIN, 30));
+		panel_9.add(lblNewLabel_5);
+		
+		JLabel lblNewLabel_6 = new JLabel("\u5009\u5EAB\u5269\u9918\u7A7A\u9593");
+		lblNewLabel_6.setFont(new Font("標楷體", Font.PLAIN, 15));
+		panel_9.add(lblNewLabel_6);
+		
+		textField_7 = new JTextField();
+		panel_9.add(textField_7);
+		textField_7.setColumns(10);
+		
+		JPanel panel_13 = new JPanel();
+		panel_1.add(panel_13);
+		panel_13.setLayout(new GridLayout(2, 2 , 0, 0));
+		
+		JCheckBox chckbxNewCheckBox_4 = new JCheckBox("\u5DE7\u514B\u529B$5");
+		panel_13.add(chckbxNewCheckBox_4);
+		chckbxNewCheckBox_4.setFont(new Font("標楷體", Font.PLAIN, 15));
+		
+		textField_11 = new JTextField();
+		panel_13.add(textField_11);
+		textField_11.setColumns(10);
+		
+		JLabel lblNewLabel_13 = new JLabel("   \u9032\u8CA8\u91CF");
+		lblNewLabel_13.setFont(new Font("標楷體", Font.PLAIN, 15));
+		panel_13.add(lblNewLabel_13);
+		
+		textField_12 = new JTextField();
+		panel_13.add(textField_12);
+		textField_12.setColumns(10);
+		
+		JPanel panel_14 = new JPanel();
+		panel_1.add(panel_14);
+		panel_14.setLayout(new GridLayout(2, 2, 0, 0));
+		
+		JCheckBox chckbxNewCheckBox_5 = new JCheckBox("\u8106\u9905$20");
+		panel_14.add(chckbxNewCheckBox_5);
+		chckbxNewCheckBox_5.setFont(new Font("標楷體", Font.PLAIN, 15));
+		
+		textField_13 = new JTextField();
+		panel_14.add(textField_13);
+		textField_13.setColumns(10);
+		
+		JLabel lblNewLabel_14 = new JLabel("   \u9032\u8CA8\u91CF");
+		lblNewLabel_14.setFont(new Font("標楷體", Font.PLAIN, 15));
+		panel_14.add(lblNewLabel_14);
+		
+		textField_14 = new JTextField();
+		panel_14.add(textField_14);
+		textField_14.setColumns(10);
+		
+		JPanel panel_15 = new JPanel();
+		panel_1.add(panel_15);
+		panel_15.setLayout(new GridLayout(2,2, 0, 0));
+		
+		JCheckBox chckbxNewCheckBox_6 = new JCheckBox("\u6D0B\u828B\u7247$10");
+		panel_15.add(chckbxNewCheckBox_6);
+		chckbxNewCheckBox_6.setFont(new Font("標楷體", Font.PLAIN, 15));
+		
+		textField_15 = new JTextField();
+		panel_15.add(textField_15);
+		textField_15.setColumns(10);
+		
+		JLabel lblNewLabel_15 = new JLabel("   \u9032\u8CA8\u91CF");
+		lblNewLabel_15.setFont(new Font("標楷體", Font.PLAIN, 15));
+		panel_15.add(lblNewLabel_15);
+		
+		textField_16 = new JTextField();
+		panel_15.add(textField_16);
+		textField_16.setColumns(10);
+		
+		JPanel panel_2 = new JPanel();
+		contentPane.add(panel_2);
+		panel_2.setLayout(new GridLayout(4, 1, 0, 0));
+		
+		JPanel panel_10 = new JPanel();
+		panel_2.add(panel_10);
+		panel_10.setLayout(new FlowLayout(FlowLayout.CENTER, 5, 5));
+		
+		JLabel lblNewLabel_7 = new JLabel("\u71B1\u98DF\u985E");
+		lblNewLabel_7.setFont(new Font("標楷體", Font.PLAIN, 30));
+		panel_10.add(lblNewLabel_7);
+		
+		JLabel lblNewLabel_8 = new JLabel("\u5009\u5EAB\u5269\u9918\u7A7A\u9593");
+		lblNewLabel_8.setFont(new Font("標楷體", Font.PLAIN, 15));
+		panel_10.add(lblNewLabel_8);
+		
+		textField_8 = new JTextField();
+		panel_10.add(textField_8);
+		textField_8.setColumns(10);
+		
+		JPanel panel_16 = new JPanel();
+		panel_2.add(panel_16);
+		panel_16.setLayout(new GridLayout(2, 2, 0, 0));
+		
+		JCheckBox chckbxNewCheckBox_7 = new JCheckBox("\u71B1\u72D7$5");
+		panel_16.add(chckbxNewCheckBox_7);
+		chckbxNewCheckBox_7.setFont(new Font("標楷體", Font.PLAIN, 15));
+		
+		textField_17 = new JTextField();
+		panel_16.add(textField_17);
+		textField_17.setColumns(10);
+		
+		JLabel lblNewLabel_16 = new JLabel("   \u9032\u8CA8\u91CF");
+		lblNewLabel_16.setFont(new Font("標楷體", Font.PLAIN, 15));
+		panel_16.add(lblNewLabel_16);
+		
+		textField_18 = new JTextField();
+		panel_16.add(textField_18);
+		textField_18.setColumns(10);
+		
+		JPanel panel_18 = new JPanel();
+		panel_2.add(panel_18);
+		panel_18.setLayout(new GridLayout(2, 2, 0, 0));
+		
+		
+		JCheckBox chckbxNewCheckBox_8 = new JCheckBox("\u8336\u8449\u86CB$3");
+		panel_18.add(chckbxNewCheckBox_8);
+		chckbxNewCheckBox_8.setFont(new Font("標楷體", Font.PLAIN, 15));
+		chckbxNewCheckBox_8.setHorizontalAlignment(SwingConstants.LEFT);
+		
+		textField_19 = new JTextField();
+		textField_19.setFont(new Font("標楷體", Font.PLAIN, 15));
+		panel_18.add(textField_19);
+		textField_19.setColumns(10);
+		
+		JLabel lblNewLabel_17 = new JLabel("   \u9032\u8CA8\u91CF");
+		lblNewLabel_17.setFont(new Font("標楷體", Font.PLAIN, 15));
+		panel_18.add(lblNewLabel_17);
+		
+		textField_20 = new JTextField();
+		textField_20.setFont(new Font("標楷體", Font.PLAIN, 15));
+		panel_18.add(textField_20);
+		textField_20.setColumns(10);
+		
+		JPanel panel_17 = new JPanel();
+		panel_2.add(panel_17);
+		
+		JPanel panel_3 = new JPanel();
+		contentPane.add(panel_3);
+		panel_3.setLayout(new GridLayout(4, 1, 0, 0));
+		
+		JPanel panel_11 = new JPanel();
+		panel_3.add(panel_11);
+		panel_11.setLayout(new FlowLayout(FlowLayout.CENTER, 5, 5));
+		
+		JLabel lblNewLabel_9 = new JLabel("\u51B0\u54C1\u985E");
+		lblNewLabel_9.setFont(new Font("標楷體", Font.PLAIN, 30));
+		panel_11.add(lblNewLabel_9);
+		
+		JLabel lblNewLabel_10 = new JLabel("\u5009\u5EAB\u5269\u9918\u7A7A\u9593");
+		lblNewLabel_10.setFont(new Font("標楷體", Font.PLAIN, 15));
+		panel_11.add(lblNewLabel_10);
+		
+		textField_9 = new JTextField();
+		panel_11.add(textField_9);
+		textField_9.setColumns(10);
+		
+		JPanel panel_19 = new JPanel();
+		panel_3.add(panel_19);
+		panel_19.setLayout(new GridLayout(2, 2, 0, 0));
+		
+		JCheckBox chckbxNewCheckBox_10 = new JCheckBox("\u51B0\u584A$5");
+		panel_19.add(chckbxNewCheckBox_10);
+		chckbxNewCheckBox_10.setFont(new Font("標楷體", Font.PLAIN, 15));
+		
+		textField_21 = new JTextField();
+		panel_19.add(textField_21);
+		textField_21.setColumns(10);
+		
+		JLabel lblNewLabel_18 = new JLabel("   \u9032\u8CA8\u91CF");
+		lblNewLabel_18.setFont(new Font("標楷體", Font.PLAIN, 15));
+		panel_19.add(lblNewLabel_18);
+		
+		textField_22 = new JTextField();
+		panel_19.add(textField_22);
+		textField_22.setColumns(10);
+		
+		JPanel panel_20 = new JPanel();
+		panel_3.add(panel_20);
+		panel_20.setLayout(new GridLayout(2, 2, 0, 0));
+		
+		JCheckBox chckbxNewCheckBox_11 = new JCheckBox("\u51B0\u68D2$5");
+		panel_20.add(chckbxNewCheckBox_11);
+		chckbxNewCheckBox_11.setFont(new Font("標楷體", Font.PLAIN, 15));
+		
+		textField_23 = new JTextField();
+		panel_20.add(textField_23);
+		textField_23.setColumns(10);
+		
+		JLabel lblNewLabel_19 = new JLabel("   \u9032\u8CA8\u91CF");
+		lblNewLabel_19.setFont(new Font("標楷體", Font.PLAIN, 15));
+		panel_20.add(lblNewLabel_19);
+		
+		textField_24 = new JTextField();
+		panel_20.add(textField_24);
+		textField_24.setColumns(10);
+		
+		JPanel panel_21 = new JPanel();
+		panel_3.add(panel_21);
+		panel_21.setLayout(new GridLayout(2, 2, 0, 0));
+		
+		JCheckBox chckbxNewCheckBox_9 = new JCheckBox("\u51B0\u6DC7\u6DCB$5");
+		panel_21.add(chckbxNewCheckBox_9);
+		chckbxNewCheckBox_9.setFont(new Font("標楷體", Font.PLAIN, 15));
+		
+		textField_25 = new JTextField();
+		panel_21.add(textField_25);
+		textField_25.setColumns(10);
+		
+		JLabel lblNewLabel_20 = new JLabel("   \u9032\u8CA8\u91CF");
+		lblNewLabel_20.setFont(new Font("標楷體", Font.PLAIN, 15));
+		panel_21.add(lblNewLabel_20);
+		
+		textField_26 = new JTextField();
+		panel_21.add(textField_26);
+		textField_26.setColumns(10);
+		
+		JPanel panel_4 = new JPanel();
+		contentPane.add(panel_4);
+		panel_4.setLayout(new GridLayout(4, 1, 0, 0));
+		
+		JPanel panel_12 = new JPanel();
+		panel_4.add(panel_12);
+		
+		JLabel lblNewLabel_11 = new JLabel("\u66F8\u7C4D\u985E");
+		lblNewLabel_11.setFont(new Font("標楷體", Font.PLAIN, 30));
+		panel_12.add(lblNewLabel_11);
+		
+		JLabel lblNewLabel_12 = new JLabel("\u5009\u5EAB\u5269\u9918\u7A7A\u9593");
+		lblNewLabel_12.setFont(new Font("標楷體", Font.PLAIN, 15));
+		panel_12.add(lblNewLabel_12);
+		
+		textField_10 = new JTextField();
+		panel_12.add(textField_10);
+		textField_10.setColumns(10);
+		
+		JPanel panel_22 = new JPanel();
+		panel_4.add(panel_22);
+		panel_22.setLayout(new GridLayout(2, 2, 0, 0));
+		
+		JCheckBox chckbxNewCheckBox_12 = new JCheckBox("\u96DC\u8A8C$20");
+		panel_22.add(chckbxNewCheckBox_12);
+		chckbxNewCheckBox_12.setFont(new Font("標楷體", Font.PLAIN, 15));
+		
+		textField_27 = new JTextField();
+		panel_22.add(textField_27);
+		textField_27.setColumns(10);
+		
+		JLabel lblNewLabel_21 = new JLabel("   \u9032\u8CA8\u91CF");
+		lblNewLabel_21.setFont(new Font("標楷體", Font.PLAIN, 15));
+		panel_22.add(lblNewLabel_21);
+		
+		textField_28 = new JTextField();
+		panel_22.add(textField_28);
+		textField_28.setColumns(10);
+		
+		JPanel panel_23 = new JPanel();
+		panel_4.add(panel_23);
+		panel_23.setLayout(new GridLayout(2, 2, 0, 0));
+		
+		JCheckBox chckbxNewCheckBox_13= new JCheckBox("\u5831\u7D19$8");
+		panel_23.add(chckbxNewCheckBox_13);
+		chckbxNewCheckBox_13.setFont(new Font("標楷體", Font.PLAIN, 15));
+		
+		textField_29 = new JTextField();
+		panel_23.add(textField_29);
+		textField_29.setColumns(10);
+		
+		JLabel lblNewLabel_22 = new JLabel("   \u9032\u8CA8\u91CF");
+		lblNewLabel_22.setFont(new Font("標楷體", Font.PLAIN, 15));
+		panel_23.add(lblNewLabel_22);
+		
+		textField_30 = new JTextField();
+		panel_23.add(textField_30);
+		textField_30.setColumns(10);
+	}
+
+}
